@@ -25,6 +25,11 @@
                 <div th:if="${vizitka.web} != null"><i class="las la-globe"></i> <span th:text="${vizitka.web}">www.czechitas.cz</span></div>
             </div>
         </div>
+        <form th:action="@{/detail}" method="post">
+
+            <input type="hidden" name="id" th:value="${id}"/>
+            <button type="submit" class="btn btn-primary">Smaž vizitku</button>
+        </form>
     </div>
 
     <div class="mapa">

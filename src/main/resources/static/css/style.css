@@ -15,6 +15,9 @@ body {
     min-height: 100vh;
     background: white url(https://source.unsplash.com/uXtq8xGUX5U) center center/cover no-repeat;
 }
+form {
+    background: white;
+}
 
 a {
     color: black;
@@ -60,6 +63,13 @@ a:hover .vizitka {
     font-size: 18pt;
     text-align: center;
     margin: 1em 0 1em 0;
+}
+.jmeno-formular {
+    font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
+    margin: 1em 0 1em 0;
+    color: white;
 }
 
 .firma {
