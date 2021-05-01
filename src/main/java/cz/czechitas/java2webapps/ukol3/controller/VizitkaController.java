@@ -68,7 +68,7 @@ public class VizitkaController {
 	}
 
 	@PostMapping(path = "/detail", params = "id")
-	public String smaz(@RequestParam int id) {
+	public String smaz(int id) {
 		seznamVizitek.remove(id);
 
 		// ModelAndView result = new ModelAndView("nova");
